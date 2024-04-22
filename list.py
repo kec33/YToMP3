@@ -17,7 +17,7 @@ while True:
         part='snippet',
         maxResults=50,  # You can adjust this as needed, but the max is 50 per request
         playlistId=playlist_id,
-        pageToken=next_page_token  # Use the next_page_token to paginate through results
+        pageToken=next_page_token  
     )
 
     response = request.execute()
