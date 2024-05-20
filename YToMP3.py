@@ -11,8 +11,8 @@ with open(file_path, "r") as f:
     # Read the lines of the file
     video_urls = f.readlines()
 
-# Create the directory for the downloaded MP3 files (for example on disk D)
-mp3s_dir = os.path.join("D:")
+# Create the directory for the downloaded MP3 files (for example on disk C)
+mp3s_dir = os.path.join("C:")
 
 # Check if the directory exists
 if not os.path.exists(mp3s_dir):
