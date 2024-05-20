@@ -4,6 +4,7 @@ Youtube links (playlist) to .mp3 automated script with python
 - Requirements:
   - Python3+
     - Libraries: google-api-python-client, pytube, (os, csv)
+  - Youtube playlist HAS to be PUBLIC !!! 
 
 - Initial steps:
   - Go to Google Cloud Console and get yourself an Youtube (data) API key
