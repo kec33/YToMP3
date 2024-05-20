@@ -3,8 +3,8 @@ from googleapiclient.discovery import build
 from googleapiclient.errors import HttpError
 import csv
 
-#get an api key from Google Cloud Console (google it!)
-api_key = ''
+#Get an YouTube Data API key from Google Cloud Console (google it!)
+api_key = input('Get an YouTube Data API key from Google Cloud Console (google it!): ')
 playlist_id = input('Enter in your playlist ID (get it from url): ')
 
 youtube = build('youtube', 'v3', developerKey=api_key)
