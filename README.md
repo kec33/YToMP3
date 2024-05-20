@@ -14,4 +14,4 @@ Youtube links (playlist) to .mp3 automated script with python
 - Script deployment outcomes:
   - 'list.py' creates a text document that is filled with downloaded URL's from the wanted playlist
   - 'YToMP3.py' creates a new folder (on C: drive, default option is inside the current folder) with the downloaded .mp3 files
-  - Any error's or exceptions are seen in chosen console and are self explanatory
+  - Any errors or exceptions are seen in chosen console and are self explanatory
